@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Basic Website with Client-Side JavaScript</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Hi there! Here on this home page are three things that represent me.</p>
+        <div id="interests">
+            <button onclick="toggleInterest('art')">Art</button>
+            <button onclick="toggleInterest('tech')">Tech</button>
+            <button onclick="toggleInterest('science')">Science</button>
+        </div>
+        <div id="art" style="display:none;">
+            <h3>Art</h3>
+            <p>I enjoy expressing myself through various art forms such as drawing.</p>
+            <img src="c:\Users\desmo\Downloads\art.jpg" alt="Art">
+        </div>
+        <div id="tech" style="display:none;">
+            <h3>Tech</h3>
+            <p>I love exploring the latest technologies and gadgets, and I'm always eager to learn about new
+                advancements in the tech world.</p>
+            <img src="c:\Users\desmo\Downloads\tech.jpg" alt="Tech">
+        </div>
+        <div id="science" style="display:none;">
+            <h3>Science</h3>
+            <p>Science fascinates me, from the mysteries of the universe to the intricacies of the human body. I'm
+                constantly amazed by the wonders of science.</p>
+            <img src="c:\Users\desmo\Downloads\science.jpg" alt="Science">
+        </div>
+
+</body>
+
+</html>
