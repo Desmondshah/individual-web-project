@@ -1,18 +1,27 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <!-- Meta tags for character set and viewport -->
     <meta charset="UTF-8">
-    <meta name="viewport" contents="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
     <title>Home</title>
+    <!-- Link to external CSS stylesheet -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Script tag to include external JavaScript file -->
     <script src="javascript.js" defer></script>
 </head>
 
 <body>
+    <!-- Header section -->
     <header>
+        <!-- Main heading -->
         <h1>Basic Website with Client-Side JavaScript</h1>
+        <!-- Navigation menu -->
         <nav>
             <ul>
+                <!-- Navigation links -->
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -20,31 +29,51 @@
         </nav>
     </header>
 
+    <!-- Main section of the page -->
     <section>
+        <!-- Subheading -->
         <h2>About Me</h2>
+        <!-- Paragraph introducing the content -->
         <p>Hi there! Here on this home page are three things that represent me.</p>
+        <!-- Container for interest buttons -->
         <div id="interests">
+            <!-- Button to toggle art section -->
             <button onclick="toggleInterest('art')">Art</button>
+            <!-- Button to toggle tech section -->
             <button onclick="toggleInterest('tech')">Tech</button>
+            <!-- Button to toggle science section -->
             <button onclick="toggleInterest('science')">Science</button>
         </div>
+        <!-- Art section -->
         <div id="art" style="display:none;">
+            <!-- Subheading -->
             <h3>Art</h3>
+            <!-- Paragraph about art -->
             <p>I enjoy expressing myself through various art forms such as drawing.</p>
-            <img src="c:\Users\desmo\Downloads\art.jpg" alt="Art">
+            <!-- Image related to art -->
+            <img src="C:\Users\desmo\webproject\art.jpg" alt="Art">
         </div>
+        <!-- Tech section -->
         <div id="tech" style="display:none;">
+            <!-- Subheading -->
             <h3>Tech</h3>
+            <!-- Paragraph about tech -->
             <p>I love exploring the latest technologies and gadgets, and I'm always eager to learn about new
                 advancements in the tech world.</p>
-            <img src="c:\Users\desmo\Downloads\tech.jpg" alt="Tech">
+            <!-- Image related to tech -->
+            <img src="C:\Users\desmo\webproject\tech.jpg" alt="Tech">
         </div>
+        <!-- Science section -->
         <div id="science" style="display:none;">
+            <!-- Subheading -->
             <h3>Science</h3>
+            <!-- Paragraph about science -->
             <p>Science fascinates me, from the mysteries of the universe to the intricacies of the human body. I'm
                 constantly amazed by the wonders of science.</p>
-            <img src="c:\Users\desmo\Downloads\science.jpg" alt="Science">
+            <!-- Image related to science -->
+            <img src="C:\Users\desmo\webproject\science.jpg" alt="Science">
         </div>
+    </section>
 
 </body>
 
